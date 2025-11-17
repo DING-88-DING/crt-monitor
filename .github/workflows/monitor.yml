@@ -1,0 +1,105 @@
+# GitHub Action: Subdomain Monitor
+# 该工作流用于自动化运行子域名监控脚本
+
+name: Subdomain Monitor
+
+on:
+  # 允许您在 Actions 页面手动触发此工作流，方便测试
+  workflow_dispatch:
+
+  # 设置定时任务
+  schedule:
+    # 使用 cron 语法，表示每2小时的第0分钟执行一次
+    # 例如：00:00, 02:00, 04:00...
+    - cron: '0 */2 * * *'
+
+jobs:
+  monitor:
+    # 使用最新的 Ubuntu 虚拟机环境
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步骤 1: 检出您的代码
+      # 拉取您仓库的最新代码到虚拟机中
+      - name: 1. Checkout Code
+        uses: actions/checkout@v4
+
+      # 步骤 2: 设置 Python 环境
+      - name: 2. Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' # 您可以指定需要的 Python 版本
+
+      # 步骤 3: 安装依赖库
+      # 从 requirements.txt 文件中安装脚本所需的库
+      - name: 3. Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 步骤 4: 从 Secrets 创建配置文件
+      # 这是关键一步：动态生成 config.json，避免将敏感信息暴露在代码中
+      - name: 4. Create config.json from Secrets
+        env:
+          # 将 GitHub Secrets 注入到环境变量中
+          DOMAINS_TO_MONITOR: ${{ secrets.DOMAINS_TO_MONITOR }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
+        # 使用 Python 脚本来生成 JSON，比 shell 更稳定可靠
+        shell: python
+        run: |
+          import json
+          import os
+
+          # 从环境变量读取域名字符串，并按逗号分割成列表
+          domains_str = os.environ.get("DOMAINS_TO_MONITOR", "")
+          domains_list = [domain.strip() for domain in domains_str.split(',') if domain.strip()]
+
+          # 构建配置字典
+          # 注意：smtp_server 和 smtp_port 是根据您之前的配置固定的
+          # 如果需要更灵活，也可以将它们设为 Secrets
+          config_data = {
+            "domains_to_monitor": domains_list,
+            "monitoring_interval_hours": 2,
+            "email_settings": {
+              "smtp_server": "smtp.qq.com",
+              "smtp_port": 587,
+              "sender_email": os.environ.get("SENDER_EMAIL"),
+              "sender_password": os.environ.get("SENDER_PASSWORD"),
+              "receiver_email": os.environ.get("RECEIVER_EMAIL")
+            }
+          }
+
+          # 写入 config.json 文件
+          with open("config.json", "w", encoding="utf-8") as f:
+            json.dump(config_data, f, indent=2, ensure_ascii=False)
+          
+          print("config.json created successfully.")
+
+      # 步骤 5: 运行监控脚本
+      - name: 5. Run Monitor Script
+        run: python monitor.py
+
+      # 步骤 6: 提交并推送更新后的 known_subdomains.json
+      # 如果脚本发现了新域名，会更新这个文件，我们需要把它存回仓库
+      - name: 6. Commit and Push Changes
+        run: |
+          # 首先，检查 known_subdomains.json 文件是否真的被修改过
+          if ! git diff --quiet known_subdomains.json; then
+            echo "Found changes in known_subdomains.json, committing to repository..."
+            # 配置 git 用户信息
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            
+            # 添加文件到暂存区
+            git add known_subdomains.json
+            
+            # 提交更改
+            git commit -m "CI: Automatically update known subdomains list"
+            
+            # 推送到远程仓库
+            git push
+          else
+            echo "No changes to known_subdomains.json. Nothing to commit."
+          fi

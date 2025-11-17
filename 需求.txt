@@ -1,0 +1,2 @@
+1、帮我实现一个脚本，监控一个域名新增的子域名，比如.initia.xyz，如果今天有新的airdrop.initia.xyz,就通知我，没两小时触发一次
+2、支持监控多个域名，比如initia.xyz,initia2.xyz,initia3.xyz，多个域名通过配置文配置
