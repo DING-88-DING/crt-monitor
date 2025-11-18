@@ -1,18 +1,19 @@
 {
     "tempo.xyz": [
-        "tim-devnet.tempo.xyz",
-        "rpc-testnet.tempo.xyz",
-        "rpc.testnet.tempo.xyz",
+        "status.tempo.xyz",
+        "trade.devnet.tempo.xyz",
         "scout.tempo.xyz",
         "www.tempo.xyz",
-        "opscim.tempo.xyz",
+        "explorer.tempo.xyz",
         "tim-devnet-rpc.tempo.xyz",
         "internal-test.tempo.xyz",
-        "status.tempo.xyz",
         "helpdesk.tempo.xyz",
-        "brand-assets.tempo.xyz",
-        "trade.devnet.tempo.xyz",
-        "explorer.tempo.xyz",
-        "explore.tempo.xyz"
+        "opscim.tempo.xyz",
+        "explore.tempo.xyz",
+        "rpc.testnet.tempo.xyz",
+        "rpc-testnet.tempo.xyz",
+        "docs.tempo.xyz",
+        "tim-devnet.tempo.xyz",
+        "brand-assets.tempo.xyz"
     ]
 }
