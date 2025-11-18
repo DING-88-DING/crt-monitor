@@ -84,66 +84,63 @@ def main():
     """主函数"""
     print("--- 子域名监控脚本启动 ---")
     config = load_config()
-    domains_to_monitor = config['domains_to_monitor'] # 从配置中获取要监控的域名列表
-    interval_seconds = config['monitoring_interval_hours'] * 3600
+    domains_to_monitor = config['domains_to_monitor']
 
-    while True:
-        print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] 开始检查所有域名...")
-        
-        # 1. 加载所有已知的子域名（字典形式）
-        all_known_subdomains = load_known_subdomains()
-        
-        new_subdomains_found_in_cycle = False # 标记本轮是否有新子域名发现
+    print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] 开始检查所有域名...")
+    
+    # 1. 加载所有已知的子域名（字典形式）
+    all_known_subdomains = load_known_subdomains()
+    
+    new_subdomains_found_in_cycle = False # 标记本轮是否有新子域名发现
 
-        for domain_to_monitor in domains_to_monitor:
-            print(f"  - 正在检查域名: {domain_to_monitor}")
+    for domain_to_monitor in domains_to_monitor:
+        print(f"  - 正在检查域名: {domain_to_monitor}")
+        
+        # 获取该域名已知的子域名
+        known_subdomains_for_this_domain = all_known_subdomains.get(domain_to_monitor, set())
+        print(f"    已知的子域名数量 for {domain_to_monitor}: {len(known_subdomains_for_this_domain)}")
+
+        # 2. 从crt.sh获取当前所有子域名
+        current_subdomains = get_subdomains_from_crtsh(domain_to_monitor)
+        
+        if current_subdomains is None:
+            print(f"    获取 {domain_to_monitor} 的子域名失败，跳过本次检查。")
+            continue
+
+        print(f"    本次获取到的子域名数量 for {domain_to_monitor}: {len(current_subdomains)}")
+
+        # 3. 对比发现新增的子域名
+        new_subdomains = current_subdomains - known_subdomains_for_this_domain
+
+        # 4. 处理新增域名
+        if new_subdomains:
+            new_subdomains_found_in_cycle = True
+            print(f"    发现 {len(new_subdomains)} 个新的子域名 for {domain_to_monitor}！")
+            for subdomain in new_subdomains:
+                print(f"      - {subdomain}")
             
-            # 获取该域名已知的子域名
-            known_subdomains_for_this_domain = all_known_subdomains.get(domain_to_monitor, set())
-            print(f"    已知的子域名数量 for {domain_to_monitor}: {len(known_subdomains_for_this_domain)}")
+            # 发送邮件通知
+            subject = f"发现新的子域名 for {domain_to_monitor}"
+            content = f"你好，\n\n监控到域名 {domain_to_monitor} 新增了以下 {len(new_subdomains)} 个子域名：\n\n"
+            content += "\n".join(sorted(list(new_subdomains)))
+            send_email(subject, content, config)
 
-            # 2. 从crt.sh获取当前所有子域名
-            current_subdomains = get_subdomains_from_crtsh(domain_to_monitor)
-            
-            if current_subdomains is None:
-                print(f"    获取 {domain_to_monitor} 的子域名失败，跳过本次检查。")
-                continue
-
-            print(f"    本次获取到的子域名数量 for {domain_to_monitor}: {len(current_subdomains)}")
-
-            # 3. 对比发现新增的子域名
-            new_subdomains = current_subdomains - known_subdomains_for_this_domain
-
-            # 4. 处理新增域名
-            if new_subdomains:
-                new_subdomains_found_in_cycle = True
-                print(f"    发现 {len(new_subdomains)} 个新的子域名 for {domain_to_monitor}！")
-                for subdomain in new_subdomains:
-                    print(f"      - {subdomain}")
-                
-                # 发送邮件通知
-                subject = f"发现新的子域名 for {domain_to_monitor}"
-                content = f"你好，\n\n监控到域名 {domain_to_monitor} 新增了以下 {len(new_subdomains)} 个子域名：\n\n"
-                content += "\n".join(sorted(list(new_subdomains)))
-                send_email(subject, content, config)
-
-                # 更新该域名的已知子域名列表
-                known_subdomains_for_this_domain.update(new_subdomains)
-                all_known_subdomains[domain_to_monitor] = known_subdomains_for_this_domain
-                print(f"    本地的已知子域名列表已更新 for {domain_to_monitor}。")
-            else:
-                print(f"    未发现新的子域名 for {domain_to_monitor}。")
-        
-        # 在处理完所有域名后，统一保存更新后的所有已知子域名
-        if new_subdomains_found_in_cycle:
-            save_known_subdomains(all_known_subdomains)
-            print("所有域名的已知子域名列表已保存。" )
+            # 更新该域名的已知子域名列表
+            known_subdomains_for_this_domain.update(new_subdomains)
+            all_known_subdomains[domain_to_monitor] = known_subdomains_for_this_domain
+            print(f"    本地的已知子域名列表已更新 for {domain_to_monitor}。")
         else:
-            print("所有域名均未发现新的子域名，无需保存。" )
+            print(f"    未发现新的子域名 for {domain_to_monitor}。")
+    
+    # 在处理完所有域名后，统一保存更新后的所有已知子域名
+    if new_subdomains_found_in_cycle:
+        save_known_subdomains(all_known_subdomains)
+        print("所有域名的已知子域名列表已保存。" )
+    else:
+        print("所有域名均未发现新的子域名，无需保存。" )
 
-        # 5. 等待下一个周期
-        print(f"本次所有域名检查完成，将在 {config['monitoring_interval_hours']} 小时后进行下一次检查。" )
-        time.sleep(interval_seconds)
+    # 5. 脚本结束
+    print(f"本次所有域名检查完成，脚本将退出。")
 
 if __name__ == '__main__':
     main()
