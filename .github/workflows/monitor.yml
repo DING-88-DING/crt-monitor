@@ -85,25 +85,14 @@ jobs:
       - name: 5. Run Monitor Script
         run: python monitor.py
 
-      # 步骤 6: 提交并推送更新后的 known_subdomains.json
-      # 如果脚本发现了新域名，会更新这个文件，我们需要把它存回仓库
+      # 步骤 6: 提交并推送更新后的 known_subdomains.json (使用专用 Action)
       - name: 6. Commit and Push Changes
-        run: |
-          # 首先，检查 known_subdomains.json 文件是否真的被修改过
-          if ! git diff --quiet known_subdomains.json; then
-            echo "Found changes in known_subdomains.json, committing to repository..."
-            # 配置 git 用户信息
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            
-            # 添加文件到暂存区
-            git add known_subdomains.json
-            
-            # 提交更改
-            git commit -m "CI: Automatically update known subdomains list"
-            
-            # 推送到远程仓库
-            git push
-          else
-            echo "No changes to known_subdomains.json. Nothing to commit."
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # 提交信息
+          commit_message: "CI: Automatically update known subdomains list"
+          # 要提交的文件，这里是 known_subdomains.json
+          file_pattern: known_subdomains.json
+          # 提交者信息
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
