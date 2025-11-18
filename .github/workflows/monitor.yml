@@ -18,6 +18,10 @@ jobs:
     # 使用最新的 Ubuntu 虚拟机环境
     runs-on: ubuntu-latest
 
+    # 授予工作流对仓库内容的写权限，以便可以提交和推送 known_subdomains.json
+    permissions:
+      contents: write
+
     steps:
       # 步骤 1: 检出您的代码
       # 拉取您仓库的最新代码到虚拟机中
