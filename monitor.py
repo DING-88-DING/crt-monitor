@@ -8,11 +8,17 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 from email.header import Header
 import requests
+from datetime import datetime, timedelta
 
 # 配置文件路径
 CONFIG_FILE = 'config.json'
 # 已知子域名存储文件路径
 KNOWN_SUBDOMAINS_FILE = 'known_subdomains.json'
+# 新增：状态追踪文件路径
+STATUS_FILE = 'status.json'
+# 新增：记录保留时间（天）
+RETENTION_DAYS = 30
+
 
 def load_config():
     """加载配置文件"""
@@ -37,6 +43,30 @@ def save_known_subdomains(known_subdomains_dict):
     data = {domain: list(subdomains) for domain, subdomains in known_subdomains_dict.items()}
     with open(KNOWN_SUBDOMAINS_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+# --- 新增功能：用于管理 status.json 的函数 ---
+def load_status_data():
+    """加载域名状态数据"""
+    if not os.path.exists(STATUS_FILE):
+        return {}
+    try:
+        with open(STATUS_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+            if not content:
+                return {}
+            return json.loads(content)
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"警告：读取或解析 {STATUS_FILE} 失败，将创建新的状态文件。错误: {e}")
+        return {}
+
+def save_status_data(data):
+    """保存域名状态数据"""
+    try:
+        with open(STATUS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+    except IOError as e:
+        print(f"错误：保存 {STATUS_FILE} 失败: {e}")
+# --- 新增功能结束 ---
 
 def get_subdomains_from_crtsh(domain):
     """从 crt.sh 获取子域名列表"""
@@ -76,7 +106,7 @@ def send_email(subject, content, config):
         server.login(email_config['sender_email'], email_config['sender_password'])
         server.sendmail(email_config['sender_email'], [email_config['receiver_email']], msg.as_string())
         server.quit()
-        print("邮件通知已成功发送。")
+        print("邮件通知已成功发送。" )
     except Exception as e:
         print(f"错误：邮件发送失败: {e}")
 
@@ -86,7 +116,21 @@ def main():
     config = load_config()
     domains_to_monitor = config['domains_to_monitor']
 
-    print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] 开始检查所有域名...")
+    # --- 新增功能：加载并清理 status.json ---
+    status_data = load_status_data()
+    print(f"加载了 {len(status_data)} 个待检查的域名状态。" )
+    today = datetime.now()
+    expiration_date = today - timedelta(days=RETENTION_DAYS)
+    active_status_data = {
+        sub: data for sub, data in status_data.items()
+        if datetime.strptime(data['added_date'], '%Y-%m-%d') > expiration_date
+    }
+    if len(active_status_data) < len(status_data):
+        print(f"清除了 {len(status_data) - len(active_status_data)} 个超过 {RETENTION_DAYS} 天的过期状态。" )
+        status_data = active_status_data
+    # --- 新增功能结束 ---
+
+    print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] 开始检查所有域名..." )
     
     # 1. 加载所有已知的子域名（字典形式）
     all_known_subdomains = load_known_subdomains()
@@ -94,20 +138,20 @@ def main():
     new_subdomains_found_in_cycle = False # 标记本轮是否有新子域名发现
 
     for domain_to_monitor in domains_to_monitor:
-        print(f"  - 正在检查域名: {domain_to_monitor}")
+        print(f"  - 正在检查域名: {domain_to_monitor}" )
         
         # 获取该域名已知的子域名
         known_subdomains_for_this_domain = all_known_subdomains.get(domain_to_monitor, set())
-        print(f"    已知的子域名数量 for {domain_to_monitor}: {len(known_subdomains_for_this_domain)}")
+        print(f"    已知的子域名数量 for {domain_to_monitor}: {len(known_subdomains_for_this_domain)}" )
 
         # 2. 从crt.sh获取当前所有子域名
         current_subdomains = get_subdomains_from_crtsh(domain_to_monitor)
         
         if current_subdomains is None:
-            print(f"    获取 {domain_to_monitor} 的子域名失败，跳过本次检查。")
+            print(f"    获取 {domain_to_monitor} 的子域名失败，跳过本次检查。" )
             continue
 
-        print(f"    本次获取到的子域名数量 for {domain_to_monitor}: {len(current_subdomains)}")
+        print(f"    本次获取到的子域名数量 for {domain_to_monitor}: {len(current_subdomains)}" )
 
         # 3. 对比发现新增的子域名
         new_subdomains = current_subdomains - known_subdomains_for_this_domain
@@ -115,22 +159,32 @@ def main():
         # 4. 处理新增域名
         if new_subdomains:
             new_subdomains_found_in_cycle = True
-            print(f"    发现 {len(new_subdomains)} 个新的子域名 for {domain_to_monitor}！")
+            print(f"    发现 {len(new_subdomains)} 个新的子域名 for {domain_to_monitor}！" )
             for subdomain in new_subdomains:
-                print(f"      - {subdomain}")
+                print(f"      - {subdomain}" )
             
-            # 发送邮件通知
+            # 【保留的原有功能】发送“发现新域名”的邮件通知
             subject = f"发现新的子域名 for {domain_to_monitor}"
             content = f"你好，\n\n监控到域名 {domain_to_monitor} 新增了以下 {len(new_subdomains)} 个子域名：\n\n"
             content += "\n".join(sorted(list(new_subdomains)))
             send_email(subject, content, config)
 
+            # --- 新增功能：将新域名记录到 status.json 中 ---
+            print(f"    -> 将 {len(new_subdomains)} 个新域名加入首次访问监控列表..." )
+            for subdomain in new_subdomains:
+                if subdomain not in status_data:
+                    status_data[subdomain] = {
+                        "added_date": today.strftime('%Y-%m-%d'),
+                        "notified_live": False
+                    }
+            # --- 新增功能结束 ---
+
             # 更新该域名的已知子域名列表
             known_subdomains_for_this_domain.update(new_subdomains)
             all_known_subdomains[domain_to_monitor] = known_subdomains_for_this_domain
-            print(f"    本地的已知子域名列表已更新 for {domain_to_monitor}。")
+            print(f"    本地的已知子域名列表已更新 for {domain_to_monitor}。" )
         else:
-            print(f"    未发现新的子域名 for {domain_to_monitor}。")
+            print(f"    未发现新的子域名 for {domain_to_monitor}。" )
     
     # 在处理完所有域名后，统一保存更新后的所有已知子域名
     if new_subdomains_found_in_cycle:
@@ -139,8 +193,37 @@ def main():
     else:
         print("所有域名均未发现新的子域名，无需保存。" )
 
+    # --- 新增功能：检查新域名是否可访问，并发送上线通知 ---
+    print("\n--- 检查新域名是否可访问并发送通知 ---")
+    notification_sent_in_live_check = False
+    for subdomain, data in status_data.items():
+        if not data.get('notified_live', False):
+            print(f"  - 正在检查: {subdomain}" )
+            try:
+                headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+                response = requests.get(f"https://{subdomain}", timeout=15, headers=headers)
+                
+                # 访问成功，无论状态码如何，都视为“可访问”
+                print(f"    -> 访问成功: {subdomain} (状态码: {response.status_code})")
+                live_subject = f"子域名上线通知: {subdomain}"
+                live_content = f"你好，\n\n新发现的子域名 {subdomain} 现已可以成功访问。\n\n链接: https://{subdomain}"
+                send_email(live_subject, live_content, config)
+                data['notified_live'] = True
+                notification_sent_in_live_check = True
+
+            except requests.exceptions.RequestException as e:
+                # 如果访问异常，也静默处理
+                print(f"    -> 访问异常，跳过: {subdomain} ({type(e).__name__})" )
+    
+    if not notification_sent_in_live_check:
+        print("没有可访问的新域名需要通知。" )
+    
+    save_status_data(status_data)
+    print("域名状态数据已保存到 status.json。" )
+    # --- 新增功能结束 ---
+
     # 5. 脚本结束
-    print(f"本次所有域名检查完成，脚本将退出。")
+    print(f"\n本次所有域名检查完成，脚本将退出。" )
 
 if __name__ == '__main__':
     main()
