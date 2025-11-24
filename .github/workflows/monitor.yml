@@ -94,24 +94,25 @@ jobs:
         run: python monitor.py
 
       # 步骤 6: (调试) 检查文件状态
-      # 在提交前，检查文件系统，确保 known_subdomains.json 已被正确修改
+      # 在提交前，检查文件系统，确保文件已被正确修改或创建
       - name: 6. DEBUG - Check File Status
         run: |
           echo "--- Listing all files recursively ---"
           ls -R
           echo "\n--- Content of known_subdomains.json ---"
-          # 使用 cat 命令，如果文件不存在或为空，让它优雅地失败
           cat known_subdomains.json || echo "known_subdomains.json is empty or does not exist."
+          echo "\n--- Content of status.json ---"
+          cat status.json || echo "status.json is empty or does not exist."
           echo "\n--- End of debug step ---"
 
-      # 步骤 7: 提交并推送更新后的 known_subdomains.json (使用专用 Action)
+      # 步骤 7: 提交并推送更新后的文件
       - name: 7. Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           # 提交信息
-          commit_message: "CI: Automatically update known subdomains list"
-          # 要提交的文件，这里是 known_subdomains.json
-          file_pattern: known_subdomains.json
+          commit_message: "CI: Automatically update domain data"
+          # 要提交的文件，使用空格分隔
+          file_pattern: known_subdomains.json status.json
           # 提交者信息
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
