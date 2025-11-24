@@ -1,0 +1,10 @@
+{
+    "docs.tempo.xyz": {
+        "added_date": "2025-11-24",
+        "notified_live": true
+    },
+    "sponsor.tempo.xyz": {
+        "added_date": "2025-11-24",
+        "notified_live": false
+    }
+}
