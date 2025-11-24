@@ -74,6 +74,7 @@ jobs:
           config_data = {
             "domains_to_monitor": domains_list,
             "monitoring_interval_hours": 2,
+            "retention_days": 30, # 新增：状态记录保留天数
             "email_settings": {
               "smtp_server": "smtp.qq.com",
               "smtp_port": 587,

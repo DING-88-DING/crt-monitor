@@ -16,8 +16,7 @@ CONFIG_FILE = 'config.json'
 KNOWN_SUBDOMAINS_FILE = 'known_subdomains.json'
 # 新增：状态追踪文件路径
 STATUS_FILE = 'status.json'
-# 新增：记录保留时间（天）
-RETENTION_DAYS = 30
+# 备注：记录保留天数（RETENTION_DAYS）将从配置文件中读取
 
 
 def load_config():
@@ -119,14 +118,18 @@ def main():
     # --- 新增功能：加载并清理 status.json ---
     status_data = load_status_data()
     print(f"加载了 {len(status_data)} 个待检查的域名状态。" )
+    
+    # 从配置中读取保留天数，如果未定义则默认为30天
+    retention_days = config.get("retention_days", 30)
+
     today = datetime.now()
-    expiration_date = today - timedelta(days=RETENTION_DAYS)
+    expiration_date = today - timedelta(days=retention_days)
     active_status_data = {
         sub: data for sub, data in status_data.items()
         if datetime.strptime(data['added_date'], '%Y-%m-%d') > expiration_date
     }
     if len(active_status_data) < len(status_data):
-        print(f"清除了 {len(status_data) - len(active_status_data)} 个超过 {RETENTION_DAYS} 天的过期状态。" )
+        print(f"清除了 {len(status_data) - len(active_status_data)} 个超过 {retention_days} 天的过期状态。" )
         status_data = active_status_data
     # --- 新增功能结束 ---
 
