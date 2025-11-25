@@ -62,5 +62,9 @@
     "stable-swap-dev.agora.finance": {
         "added_date": "2025-11-25",
         "notified_live": true
+    },
+    "sequencer-guard.megaeth.com": {
+        "added_date": "2025-11-25",
+        "notified_live": true
     }
 }
