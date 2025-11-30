@@ -66,5 +66,9 @@
     "sequencer-guard.megaeth.com": {
         "added_date": "2025-11-25",
         "notified_live": true
+    },
+    "rpc-orchestra.devnet.tempo.xyz": {
+        "added_date": "2025-11-30",
+        "notified_live": true
     }
 }
