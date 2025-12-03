@@ -94,5 +94,9 @@
     "forms.zama.org": {
         "added_date": "2025-12-03",
         "notified_live": true
+    },
+    "scout.testnet.tempo.xyz": {
+        "added_date": "2025-12-03",
+        "notified_live": true
     }
 }
