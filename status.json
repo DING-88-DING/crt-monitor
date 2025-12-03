@@ -90,5 +90,9 @@
     "base.polymarket.com": {
         "added_date": "2025-12-03",
         "notified_live": true
+    },
+    "forms.zama.org": {
+        "added_date": "2025-12-03",
+        "notified_live": true
     }
 }
