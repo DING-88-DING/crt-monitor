@@ -122,5 +122,25 @@
     "social-demo.shelby.xyz": {
         "added_date": "2025-12-10",
         "notified_live": true
+    },
+    "www.explore.tempo.xyz": {
+        "added_date": "2025-12-11",
+        "notified_live": true
+    },
+    "tokenlist.tempo.xyz": {
+        "added_date": "2025-12-11",
+        "notified_live": true
+    },
+    "contracts.tempo.xyz": {
+        "added_date": "2025-12-11",
+        "notified_live": true
+    },
+    "rustdocs.tempo.xyz": {
+        "added_date": "2025-12-11",
+        "notified_live": true
+    },
+    "canary-rpc-demo.megaeth.com": {
+        "added_date": "2025-12-11",
+        "notified_live": true
     }
 }
