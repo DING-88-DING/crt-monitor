@@ -142,5 +142,9 @@
     "canary-rpc-demo.megaeth.com": {
         "added_date": "2025-12-11",
         "notified_live": true
+    },
+    "coprocessor-1.mainnet.zama.org": {
+        "added_date": "2025-12-12",
+        "notified_live": true
     }
 }
