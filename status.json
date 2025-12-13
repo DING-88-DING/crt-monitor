@@ -150,5 +150,9 @@
     "og.tempo.xyz": {
         "added_date": "2025-12-13",
         "notified_live": true
+    },
+    "brand.codex.xyz": {
+        "added_date": "2025-12-13",
+        "notified_live": true
     }
 }
