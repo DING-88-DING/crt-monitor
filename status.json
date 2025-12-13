@@ -154,5 +154,9 @@
     "brand.codex.xyz": {
         "added_date": "2025-12-13",
         "notified_live": true
+    },
+    "rpc-orchestra-hyper.testnet.tempo.xyz": {
+        "added_date": "2025-12-13",
+        "notified_live": true
     }
 }
