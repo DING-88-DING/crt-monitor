@@ -162,5 +162,13 @@
     "claim.zama.org": {
         "added_date": "2025-12-15",
         "notified_live": true
+    },
+    "staging.rpc.megaeth.com": {
+        "added_date": "2025-12-16",
+        "notified_live": true
+    },
+    "staging-sequencer-guard.megaeth.com": {
+        "added_date": "2025-12-16",
+        "notified_live": true
     }
 }
