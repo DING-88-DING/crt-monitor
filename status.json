@@ -178,5 +178,9 @@
     "mainnet-dashboard.megaeth.com": {
         "added_date": "2025-12-17",
         "notified_live": true
+    },
+    "relayer.mainnet.zama.org": {
+        "added_date": "2025-12-17",
+        "notified_live": true
     }
 }
