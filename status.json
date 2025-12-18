@@ -182,5 +182,21 @@
     "relayer.mainnet.zama.org": {
         "added_date": "2025-12-17",
         "notified_live": true
+    },
+    "staging-testnet.rpc.megaeth.com": {
+        "added_date": "2025-12-18",
+        "notified_live": true
+    },
+    "staging-mainnet.rpc.megaeth.com": {
+        "added_date": "2025-12-18",
+        "notified_live": true
+    },
+    "staging-sequencer-mainnet.megaeth.com": {
+        "added_date": "2025-12-18",
+        "notified_live": true
+    },
+    "staging-sequencer-testnet.megaeth.com": {
+        "added_date": "2025-12-18",
+        "notified_live": true
     }
 }
