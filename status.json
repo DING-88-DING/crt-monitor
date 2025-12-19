@@ -198,5 +198,9 @@
     "staging-sequencer-testnet.megaeth.com": {
         "added_date": "2025-12-18",
         "notified_live": true
+    },
+    "sponsor.devnet.tempo.xyz": {
+        "added_date": "2025-12-19",
+        "notified_live": true
     }
 }
