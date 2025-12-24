@@ -1,12 +1,4 @@
 {
-    "docs.tempo.xyz": {
-        "added_date": "2025-11-24",
-        "notified_live": true
-    },
-    "sponsor.tempo.xyz": {
-        "added_date": "2025-11-24",
-        "notified_live": false
-    },
     "derivative.polymarket.com": {
         "added_date": "2025-11-25",
         "notified_live": true
