@@ -1,8 +1,4 @@
 {
-    "auction.zama.org": {
-        "added_date": "2025-12-01",
-        "notified_live": true
-    },
     "rpc-orchestra.testnet.tempo.xyz": {
         "added_date": "2025-12-02",
         "notified_live": true
