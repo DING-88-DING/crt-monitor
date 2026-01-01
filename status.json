@@ -1,16 +1,4 @@
 {
-    "rpc-orchestra.testnet.tempo.xyz": {
-        "added_date": "2025-12-02",
-        "notified_live": true
-    },
-    "rpct.testnet.tempo.xyz": {
-        "added_date": "2025-12-02",
-        "notified_live": true
-    },
-    "rpctest.testnet.tempo.xyz": {
-        "added_date": "2025-12-02",
-        "notified_live": true
-    },
     "base.polymarket.com": {
         "added_date": "2025-12-03",
         "notified_live": true
