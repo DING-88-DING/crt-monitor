@@ -122,5 +122,9 @@
     "testnet-ck-tunnel.megaeth.com": {
         "added_date": "2025-12-31",
         "notified_live": true
+    },
+    "o11y.tempo.xyz": {
+        "added_date": "2026-01-02",
+        "notified_live": true
     }
 }
