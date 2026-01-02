@@ -126,5 +126,9 @@
     "o11y.tempo.xyz": {
         "added_date": "2026-01-02",
         "notified_live": true
+    },
+    "devnet.explore.tempo.xyz": {
+        "added_date": "2026-01-02",
+        "notified_live": true
     }
 }
