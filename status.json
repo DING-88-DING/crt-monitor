@@ -1,16 +1,4 @@
 {
-    "api.tempo.xyz": {
-        "added_date": "2025-12-06",
-        "notified_live": true
-    },
-    "rpc-nginx.testnet.tempo.xyz": {
-        "added_date": "2025-12-06",
-        "notified_live": true
-    },
-    "proxy.tempo.xyz": {
-        "added_date": "2025-12-06",
-        "notified_live": true
-    },
     "rpc-val.testnet.tempo.xyz": {
         "added_date": "2025-12-09",
         "notified_live": true
