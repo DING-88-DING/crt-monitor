@@ -118,5 +118,9 @@
     "devnet.explore.tempo.xyz": {
         "added_date": "2026-01-02",
         "notified_live": true
+    },
+    "mainnet-ck-tunnel.megaeth.com": {
+        "added_date": "2026-01-05",
+        "notified_live": true
     }
 }
