@@ -122,5 +122,25 @@
     "mainnet-ck-tunnel.megaeth.com": {
         "added_date": "2026-01-05",
         "notified_live": true
+    },
+    "explore.moderato.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": false
+    },
+    "explore.42431.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": false
+    },
+    "explore.devnet.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": false
+    },
+    "explore.42429.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": false
+    },
+    "explore.31318.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": false
     }
 }
