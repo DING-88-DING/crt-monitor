@@ -125,22 +125,30 @@
     },
     "explore.moderato.tempo.xyz": {
         "added_date": "2026-01-07",
-        "notified_live": false
+        "notified_live": true
     },
     "explore.42431.tempo.xyz": {
         "added_date": "2026-01-07",
-        "notified_live": false
+        "notified_live": true
     },
     "explore.devnet.tempo.xyz": {
         "added_date": "2026-01-07",
-        "notified_live": false
+        "notified_live": true
     },
     "explore.42429.tempo.xyz": {
         "added_date": "2026-01-07",
-        "notified_live": false
+        "notified_live": true
     },
     "explore.31318.tempo.xyz": {
         "added_date": "2026-01-07",
-        "notified_live": false
+        "notified_live": true
+    },
+    "explore.andantino.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": true
+    },
+    "explore.testnet.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": true
     }
 }
