@@ -158,5 +158,9 @@
     "explorer.mainnet.zama.org": {
         "added_date": "2026-01-07",
         "notified_live": true
+    },
+    "rpc-val.moderato.tempo.xyz": {
+        "added_date": "2026-01-07",
+        "notified_live": true
     }
 }
