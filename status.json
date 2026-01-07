@@ -150,5 +150,13 @@
     "explore.testnet.tempo.xyz": {
         "added_date": "2026-01-07",
         "notified_live": true
+    },
+    "rpc.mainnet.zama.org": {
+        "added_date": "2026-01-07",
+        "notified_live": true
+    },
+    "explorer.mainnet.zama.org": {
+        "added_date": "2026-01-07",
+        "notified_live": true
     }
 }
