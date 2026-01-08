@@ -174,5 +174,9 @@
     "www.ubyx.xyz": {
         "added_date": "2026-01-08",
         "notified_live": true
+    },
+    "rpc-orchestra-hyper.moderato.tempo.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
     }
 }
