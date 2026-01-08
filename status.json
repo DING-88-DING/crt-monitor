@@ -178,5 +178,9 @@
     "rpc-orchestra-hyper.moderato.tempo.xyz": {
         "added_date": "2026-01-08",
         "notified_live": true
+    },
+    "rpc.moderato.tempo.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
     }
 }
