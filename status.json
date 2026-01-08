@@ -158,5 +158,21 @@
     "rpc-val.moderato.tempo.xyz": {
         "added_date": "2026-01-07",
         "notified_live": true
+    },
+    "keycloak.dev.catalyst.ubyx.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
+    },
+    "keycloak.catalyst.ubyx.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
+    },
+    "keycloak.test.catalyst.ubyx.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
+    },
+    "www.ubyx.xyz": {
+        "added_date": "2026-01-08",
+        "notified_live": true
     }
 }
