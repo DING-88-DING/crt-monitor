@@ -186,5 +186,9 @@
     "rpc-val.tempo.xyz": {
         "added_date": "2026-01-09",
         "notified_live": true
+    },
+    "rpc-orchestra-hyper.tempo.xyz": {
+        "added_date": "2026-01-09",
+        "notified_live": true
     }
 }
