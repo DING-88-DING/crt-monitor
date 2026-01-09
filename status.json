@@ -178,5 +178,9 @@
     "sponsor.moderato.tempo.xyz": {
         "added_date": "2026-01-08",
         "notified_live": true
+    },
+    "lyra.farcaster.xyz": {
+        "added_date": "2026-01-09",
+        "notified_live": false
     }
 }
