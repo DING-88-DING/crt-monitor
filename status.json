@@ -174,5 +174,9 @@
     "rpc.tempo.xyz": {
         "added_date": "2026-01-12",
         "notified_live": true
+    },
+    "rpc.presto.tempo.xyz": {
+        "added_date": "2026-01-12",
+        "notified_live": true
     }
 }
