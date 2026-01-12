@@ -166,5 +166,13 @@
     "explore.presto.tempo.xyz": {
         "added_date": "2026-01-12",
         "notified_live": true
+    },
+    "rpc.mainnet.tempo.xyz": {
+        "added_date": "2026-01-12",
+        "notified_live": true
+    },
+    "rpc.tempo.xyz": {
+        "added_date": "2026-01-12",
+        "notified_live": true
     }
 }
