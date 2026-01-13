@@ -178,5 +178,9 @@
     "rpc.presto.tempo.xyz": {
         "added_date": "2026-01-12",
         "notified_live": true
+    },
+    "boom.farcaster.xyz": {
+        "added_date": "2026-01-13",
+        "notified_live": false
     }
 }
