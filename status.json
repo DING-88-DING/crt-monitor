@@ -254,5 +254,9 @@
     "eth-testnet.megaeth.com": {
         "added_date": "2026-01-14",
         "notified_live": false
+    },
+    "eth-cf-gateway.megaeth.com": {
+        "added_date": "2026-01-14",
+        "notified_live": true
     }
 }
