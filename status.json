@@ -270,5 +270,13 @@
     "app.mainnet.tempo.xyz": {
         "added_date": "2026-01-14",
         "notified_live": true
+    },
+    "app.tempo.xyz": {
+        "added_date": "2026-01-14",
+        "notified_live": true
+    },
+    "app.moderato.tempo.xyz": {
+        "added_date": "2026-01-14",
+        "notified_live": true
     }
 }
