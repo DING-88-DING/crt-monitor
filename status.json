@@ -262,5 +262,13 @@
     "keys.tempo.xyz": {
         "added_date": "2026-01-14",
         "notified_live": true
+    },
+    "app.presto.tempo.xyz": {
+        "added_date": "2026-01-14",
+        "notified_live": true
+    },
+    "app.mainnet.tempo.xyz": {
+        "added_date": "2026-01-14",
+        "notified_live": true
     }
 }
