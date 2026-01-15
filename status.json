@@ -270,5 +270,9 @@
     "app.moderato.tempo.xyz": {
         "added_date": "2026-01-14",
         "notified_live": true
+    },
+    "facilitator.tempo.xyz": {
+        "added_date": "2026-01-15",
+        "notified_live": true
     }
 }
