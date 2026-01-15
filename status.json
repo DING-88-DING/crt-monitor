@@ -278,5 +278,9 @@
     "community-sale.zama.org": {
         "added_date": "2026-01-15",
         "notified_live": true
+    },
+    "azura-api.dev.onebalance.io": {
+        "added_date": "2026-01-15",
+        "notified_live": true
     }
 }
