@@ -294,5 +294,21 @@
     "reth-snapshots-testnet.tempo.xyz": {
         "added_date": "2026-01-16",
         "notified_live": true
+    },
+    "paymentauth-basic.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-x402.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-x402-testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-basic-testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
     }
 }
