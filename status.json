@@ -310,5 +310,97 @@
     "paymentauth-basic-testnet.tempo.xyz": {
         "added_date": "2026-01-16",
         "notified_live": true
+    },
+    "reth-snapshots.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "exa.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "exa.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "openrouter.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-basic.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "llm.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "browserbase.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "twitter.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-base.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-base.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "llm.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "browserbase.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "exa.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "openrouter.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "twitter.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "paymentauth-x402.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "firecrawl.payments.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "twitter.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "firecrawl.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "llm.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "browserbase.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "firecrawl.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "openrouter.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
     }
 }
