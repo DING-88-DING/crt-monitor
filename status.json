@@ -286,5 +286,13 @@
     "paymentauth-basic.tempo.xyz": {
         "added_date": "2026-01-16",
         "notified_live": true
+    },
+    "reth-snapshots.moderato.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
+    },
+    "reth-snapshots-testnet.tempo.xyz": {
+        "added_date": "2026-01-16",
+        "notified_live": true
     }
 }
