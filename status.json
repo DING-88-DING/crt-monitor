@@ -482,5 +482,29 @@
     "gpu.payments.tempo.xyz": {
         "added_date": "2026-01-17",
         "notified_live": true
+    },
+    "rpc.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "chain.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "chain.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "rpc.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "chain.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "rpc.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
     }
 }
