@@ -386,5 +386,101 @@
     "openrouter.payments.moderato.tempo.xyz": {
         "added_date": "2026-01-16",
         "notified_live": true
+    },
+    "compute.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "anthropic.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "codex.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "modal.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "claude.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "compute.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpt.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "openai.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "modal.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "anthropic.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "openai.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "compute.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "codex.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "modal.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpu.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpt.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "codex.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "openai.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpt.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "claude.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "claude.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpu.payments.moderato.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "anthropic.payments.testnet.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "gpu.payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
     }
 }
