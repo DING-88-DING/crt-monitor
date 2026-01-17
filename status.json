@@ -522,5 +522,13 @@
     "presto.tempo.xyz": {
         "added_date": "2026-01-17",
         "notified_live": true
+    },
+    "paymentauth-tetris.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
+    },
+    "payments.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
     }
 }
