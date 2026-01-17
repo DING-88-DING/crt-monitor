@@ -530,5 +530,9 @@
     "payments.tempo.xyz": {
         "added_date": "2026-01-17",
         "notified_live": true
+    },
+    "purl.tempo.xyz": {
+        "added_date": "2026-01-17",
+        "notified_live": true
     }
 }
