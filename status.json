@@ -530,5 +530,9 @@
     "purl.tempo.xyz": {
         "added_date": "2026-01-17",
         "notified_live": true
+    },
+    "mainnet.docs.tempo.xyz": {
+        "added_date": "2026-01-18",
+        "notified_live": true
     }
 }
