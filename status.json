@@ -538,5 +538,13 @@
     "staking.zama.org": {
         "added_date": "2026-01-19",
         "notified_live": true
+    },
+    "metrics.mainnet.tempo.xyz": {
+        "added_date": "2026-01-19",
+        "notified_live": true
+    },
+    "metrics.testnet.tempo.xyz": {
+        "added_date": "2026-01-19",
+        "notified_live": true
     }
 }
