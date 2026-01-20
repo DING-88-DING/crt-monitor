@@ -554,5 +554,9 @@
     "keystore.tempo.xyz": {
         "added_date": "2026-01-20",
         "notified_live": false
+    },
+    "sitter.tempo.xyz": {
+        "added_date": "2026-01-20",
+        "notified_live": true
     }
 }
