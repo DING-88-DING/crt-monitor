@@ -562,5 +562,9 @@
     "portfolio.zama.org": {
         "added_date": "2026-01-20",
         "notified_live": true
+    },
+    "explorer.hyperunit.xyz": {
+        "added_date": "2026-01-21",
+        "notified_live": true
     }
 }
