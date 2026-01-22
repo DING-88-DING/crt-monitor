@@ -574,5 +574,9 @@
     "unshield.zama.org": {
         "added_date": "2026-01-22",
         "notified_live": true
+    },
+    "stress.megaeth.com": {
+        "added_date": "2026-01-22",
+        "notified_live": true
     }
 }
