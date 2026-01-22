@@ -570,5 +570,9 @@
     "testnet-vector-tunnel.megaeth.com": {
         "added_date": "2026-01-22",
         "notified_live": true
+    },
+    "unshield.zama.org": {
+        "added_date": "2026-01-22",
+        "notified_live": true
     }
 }
