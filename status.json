@@ -566,5 +566,9 @@
     "explorer.hyperunit.xyz": {
         "added_date": "2026-01-21",
         "notified_live": true
+    },
+    "testnet-vector-tunnel.megaeth.com": {
+        "added_date": "2026-01-22",
+        "notified_live": true
     }
 }
