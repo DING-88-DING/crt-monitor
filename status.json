@@ -1,16 +1,4 @@
 {
-    "alpha-staging.megaeth.com": {
-        "added_date": "2025-12-24",
-        "notified_live": false
-    },
-    "rpc.testnet2.tempo.xyz": {
-        "added_date": "2025-12-24",
-        "notified_live": true
-    },
-    "test-explorer.tempo.xyz": {
-        "added_date": "2025-12-24",
-        "notified_live": false
-    },
     "images.polymarket.com": {
         "added_date": "2025-12-30",
         "notified_live": true
