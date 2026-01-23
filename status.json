@@ -566,5 +566,9 @@
     "stress.megaeth.com": {
         "added_date": "2026-01-22",
         "notified_live": true
+    },
+    "purl-binaries.tempo.xyz": {
+        "added_date": "2026-01-23",
+        "notified_live": true
     }
 }
