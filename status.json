@@ -594,5 +594,9 @@
     "telemetry.shelby.xyz": {
         "added_date": "2026-01-28",
         "notified_live": true
+    },
+    "pget.tempo.xyz": {
+        "added_date": "2026-01-28",
+        "notified_live": true
     }
 }
