@@ -598,5 +598,9 @@
     "pget.tempo.xyz": {
         "added_date": "2026-01-28",
         "notified_live": true
+    },
+    "next.docs.tempo.xyz": {
+        "added_date": "2026-01-28",
+        "notified_live": true
     }
 }
