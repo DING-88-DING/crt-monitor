@@ -1,8 +1,4 @@
 {
-    "testnet-ck-tunnel.megaeth.com": {
-        "added_date": "2025-12-31",
-        "notified_live": true
-    },
     "o11y.tempo.xyz": {
         "added_date": "2026-01-02",
         "notified_live": true
@@ -605,6 +601,10 @@
     },
     "docs.mpp.tempo.xyz": {
         "added_date": "2026-01-29",
+        "notified_live": true
+    },
+    "mpp-docs.tempo.xyz": {
+        "added_date": "2026-01-30",
         "notified_live": true
     }
 }
