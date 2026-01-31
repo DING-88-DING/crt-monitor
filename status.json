@@ -610,5 +610,9 @@
     "pget-binaries.tempo.xyz": {
         "added_date": "2026-01-30",
         "notified_live": true
+    },
+    "verify.tempo.xyz": {
+        "added_date": "2026-01-31",
+        "notified_live": true
     }
 }
