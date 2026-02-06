@@ -582,5 +582,9 @@
     "mpp.tempo.xyz": {
         "added_date": "2026-02-04",
         "notified_live": true
+    },
+    "rate-limit-test.megaeth.com": {
+        "added_date": "2026-02-06",
+        "notified_live": true
     }
 }
