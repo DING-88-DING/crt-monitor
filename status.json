@@ -562,5 +562,9 @@
     "faucet.tempo.xyz": {
         "added_date": "2026-02-06",
         "notified_live": true
+    },
+    "mainnet-pruned-ck-tunnel.megaeth.com": {
+        "added_date": "2026-02-07",
+        "notified_live": true
     }
 }
