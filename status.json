@@ -1,16 +1,4 @@
 {
-    "lyra.farcaster.xyz": {
-        "added_date": "2026-01-09",
-        "notified_live": false
-    },
-    "rpc-val.tempo.xyz": {
-        "added_date": "2026-01-09",
-        "notified_live": true
-    },
-    "rpc-orchestra-hyper.tempo.xyz": {
-        "added_date": "2026-01-09",
-        "notified_live": true
-    },
     "explore.4217.tempo.xyz": {
         "added_date": "2026-01-12",
         "notified_live": true
