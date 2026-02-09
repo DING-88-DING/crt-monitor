@@ -570,5 +570,17 @@
     "rabbithole.megaeth.com": {
         "added_date": "2026-02-09",
         "notified_live": true
+    },
+    "mnet-ck-proxy.megaeth.com": {
+        "added_date": "2026-02-09",
+        "notified_live": true
+    },
+    "mainnet-pruned-ckproxy.megaeth.com": {
+        "added_date": "2026-02-09",
+        "notified_live": true
+    },
+    "mnet-dragonfly-http.megaeth.com": {
+        "added_date": "2026-02-09",
+        "notified_live": true
     }
 }
