@@ -582,5 +582,9 @@
     "mnet-dragonfly-http.megaeth.com": {
         "added_date": "2026-02-09",
         "notified_live": true
+    },
+    "tempoctl.tempo.xyz": {
+        "added_date": "2026-02-09",
+        "notified_live": true
     }
 }
