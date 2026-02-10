@@ -586,5 +586,49 @@
     "tempoctl.tempo.xyz": {
         "added_date": "2026-02-09",
         "notified_live": true
+    },
+    "loki-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "wallet-service-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "solana-proxy-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "onebackend-status-api-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "apisix-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "prometheus-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "onebackend-erpc-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "solver-fan-out-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "ccm-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "transaction-relayer-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
+    },
+    "turnkey-int.dev.onebalance.io": {
+        "added_date": "2026-02-10",
+        "notified_live": false
     }
 }
