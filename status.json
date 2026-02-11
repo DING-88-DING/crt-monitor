@@ -1,28 +1,4 @@
 {
-    "explore.4217.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
-    "explore.mainnet.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
-    "explore.presto.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
-    "rpc.mainnet.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
-    "rpc.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
-    "rpc.presto.tempo.xyz": {
-        "added_date": "2026-01-12",
-        "notified_live": true
-    },
     "boom.farcaster.xyz": {
         "added_date": "2026-01-13",
         "notified_live": false
