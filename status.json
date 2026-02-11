@@ -710,5 +710,9 @@
     "transaction-relayer-int.prod.onebalance.io": {
         "added_date": "2026-02-11",
         "notified_live": false
+    },
+    "developers.ubyx.xyz": {
+        "added_date": "2026-02-11",
+        "notified_live": true
     }
 }
