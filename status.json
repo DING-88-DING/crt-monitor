@@ -642,5 +642,9 @@
     "explorer.staging.shelby.xyz": {
         "added_date": "2026-02-12",
         "notified_live": true
+    },
+    "docs.staging.shelby.xyz": {
+        "added_date": "2026-02-12",
+        "notified_live": true
     }
 }
