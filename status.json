@@ -1,32 +1,4 @@
 {
-    "eth-testnet.megaeth.com": {
-        "added_date": "2026-01-14",
-        "notified_live": false
-    },
-    "eth-cf-gateway.megaeth.com": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
-    "keys.tempo.xyz": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
-    "app.presto.tempo.xyz": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
-    "app.mainnet.tempo.xyz": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
-    "app.tempo.xyz": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
-    "app.moderato.tempo.xyz": {
-        "added_date": "2026-01-14",
-        "notified_live": true
-    },
     "facilitator.tempo.xyz": {
         "added_date": "2026-01-15",
         "notified_live": true
@@ -645,6 +617,10 @@
     },
     "docs.staging.shelby.xyz": {
         "added_date": "2026-02-12",
+        "notified_live": true
+    },
+    "preview.moderato.app.tempo.xyz": {
+        "added_date": "2026-02-13",
         "notified_live": true
     }
 }
