@@ -614,5 +614,17 @@
     "app-next.moderato.tempo.xyz": {
         "added_date": "2026-02-14",
         "notified_live": true
+    },
+    "app.testnet.tempo.xyz": {
+        "added_date": "2026-02-14",
+        "notified_live": true
+    },
+    "app.devnet.tempo.xyz": {
+        "added_date": "2026-02-14",
+        "notified_live": true
+    },
+    "pr-354.app.tempo.xyz": {
+        "added_date": "2026-02-14",
+        "notified_live": false
     }
 }
