@@ -350,5 +350,9 @@
     "djparty.tempo.xyz": {
         "added_date": "2026-02-16",
         "notified_live": true
+    },
+    "tidx.tempo.xyz": {
+        "added_date": "2026-02-17",
+        "notified_live": true
     }
 }
