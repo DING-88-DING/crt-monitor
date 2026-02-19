@@ -338,5 +338,9 @@
     "cf-metrics.tempo.xyz": {
         "added_date": "2026-02-19",
         "notified_live": true
+    },
+    "internal-metrics.tempo.xyz": {
+        "added_date": "2026-02-19",
+        "notified_live": false
     }
 }
