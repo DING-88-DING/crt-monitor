@@ -330,5 +330,9 @@
     "download.tempo.xyz": {
         "added_date": "2026-02-21",
         "notified_live": true
+    },
+    "preprod-v1.polymarket.com": {
+        "added_date": "2026-02-21",
+        "notified_live": true
     }
 }
