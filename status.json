@@ -326,5 +326,9 @@
     "internal-metrics.tempo.xyz": {
         "added_date": "2026-02-19",
         "notified_live": true
+    },
+    "download.tempo.xyz": {
+        "added_date": "2026-02-21",
+        "notified_live": true
     }
 }
