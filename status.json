@@ -346,5 +346,9 @@
     "alloy-int.prod.onebalance.io": {
         "added_date": "2026-02-24",
         "notified_live": false
+    },
+    "wallet.tempo.xyz": {
+        "added_date": "2026-02-24",
+        "notified_live": true
     }
 }
