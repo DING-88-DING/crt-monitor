@@ -346,5 +346,9 @@
     "alloy-otlp-int.dev.onebalance.io": {
         "added_date": "2026-02-25",
         "notified_live": false
+    },
+    "embeds.polymarket.com": {
+        "added_date": "2026-02-25",
+        "notified_live": true
     }
 }
