@@ -342,5 +342,9 @@
     "wallet.tempo.xyz": {
         "added_date": "2026-02-24",
         "notified_live": true
+    },
+    "alloy-otlp-int.dev.onebalance.io": {
+        "added_date": "2026-02-25",
+        "notified_live": false
     }
 }
