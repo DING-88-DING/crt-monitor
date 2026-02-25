@@ -1,12 +1,4 @@
 {
-    "payment-auth-spec.tempo.xyz": {
-        "added_date": "2026-01-26",
-        "notified_live": true
-    },
-    "paymentauth.tempo.xyz": {
-        "added_date": "2026-01-26",
-        "notified_live": true
-    },
     "presto-binaries.tempo.xyz": {
         "added_date": "2026-01-27",
         "notified_live": true
