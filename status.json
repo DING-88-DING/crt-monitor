@@ -1,16 +1,4 @@
 {
-    "telemetry.shelby.xyz": {
-        "added_date": "2026-01-28",
-        "notified_live": true
-    },
-    "pget.tempo.xyz": {
-        "added_date": "2026-01-28",
-        "notified_live": true
-    },
-    "next.docs.tempo.xyz": {
-        "added_date": "2026-01-28",
-        "notified_live": true
-    },
     "potemkin.tempo.xyz": {
         "added_date": "2026-01-29",
         "notified_live": true
