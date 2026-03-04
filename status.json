@@ -330,5 +330,9 @@
     "wallet.presto.tempo.xyz": {
         "added_date": "2026-03-03",
         "notified_live": true
+    },
+    "developers.shelby.xyz": {
+        "added_date": "2026-03-04",
+        "notified_live": true
     }
 }
