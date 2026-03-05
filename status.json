@@ -333,7 +333,7 @@
     },
     "api.testnet.shelby.xyz": {
         "added_date": "2026-03-05",
-        "notified_live": false
+        "notified_live": true
     },
     "api.testnet.staging.shelby.xyz": {
         "added_date": "2026-03-05",
