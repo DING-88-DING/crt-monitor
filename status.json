@@ -1,8 +1,4 @@
 {
-    "testnet-ck-proxy.megaeth.com": {
-        "added_date": "2026-02-08",
-        "notified_live": true
-    },
     "mnet-dragonflydb-tunnel.example.com.megaeth.com": {
         "added_date": "2026-02-09",
         "notified_live": true
