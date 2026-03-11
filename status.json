@@ -1,32 +1,4 @@
 {
-    "mnet-dragonflydb-tunnel.example.com.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "mnet-dragonflydb-tunnel.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "rabbithole.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "mnet-ck-proxy.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "mainnet-pruned-ckproxy.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "mnet-dragonfly-http.megaeth.com": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
-    "tempoctl.tempo.xyz": {
-        "added_date": "2026-02-09",
-        "notified_live": true
-    },
     "loki-int.dev.onebalance.io": {
         "added_date": "2026-02-10",
         "notified_live": false
