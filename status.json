@@ -162,5 +162,9 @@
     "internal-traces.tempo.xyz": {
         "added_date": "2026-03-12",
         "notified_live": true
+    },
+    "affiliate.polymarket.com": {
+        "added_date": "2026-03-13",
+        "notified_live": true
     }
 }
