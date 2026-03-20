@@ -1,12 +1,4 @@
 {
-    "payments.moderato.tempo.xyz": {
-        "added_date": "2026-02-18",
-        "notified_live": true
-    },
-    "mpp.moderato.tempo.xyz": {
-        "added_date": "2026-02-18",
-        "notified_live": true
-    },
     "cf-metrics.tempo.xyz": {
         "added_date": "2026-02-19",
         "notified_live": true
