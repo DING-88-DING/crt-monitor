@@ -126,5 +126,9 @@
     "account-demo.megaeth.com": {
         "added_date": "2026-03-25",
         "notified_live": true
+    },
+    "metadata.megaeth.com": {
+        "added_date": "2026-03-25",
+        "notified_live": true
     }
 }
