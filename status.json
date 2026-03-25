@@ -1,12 +1,4 @@
 {
-    "auth0.codex.xyz": {
-        "added_date": "2026-02-23",
-        "notified_live": true
-    },
-    "scim.ubyx.xyz": {
-        "added_date": "2026-02-23",
-        "notified_live": true
-    },
     "alloy-int.staging.onebalance.io": {
         "added_date": "2026-02-24",
         "notified_live": false
