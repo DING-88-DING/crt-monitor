@@ -106,5 +106,9 @@
     "metadata.megaeth.com": {
         "added_date": "2026-03-25",
         "notified_live": true
+    },
+    "moss.megaeth.com": {
+        "added_date": "2026-03-27",
+        "notified_live": false
     }
 }
