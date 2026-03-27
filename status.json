@@ -110,5 +110,13 @@
     "moss.megaeth.com": {
         "added_date": "2026-03-27",
         "notified_live": false
+    },
+    "moss-relayer.megaeth.com": {
+        "added_date": "2026-03-27",
+        "notified_live": false
+    },
+    "wallet-relay.megaeth.com": {
+        "added_date": "2026-03-27",
+        "notified_live": true
     }
 }
