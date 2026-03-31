@@ -118,5 +118,9 @@
     "wallet-relay.megaeth.com": {
         "added_date": "2026-03-27",
         "notified_live": true
+    },
+    "faucet.testnet.zama.org": {
+        "added_date": "2026-03-31",
+        "notified_live": true
     }
 }
