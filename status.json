@@ -102,5 +102,17 @@
     "staging-terminal.megaeth.com": {
         "added_date": "2026-04-03",
         "notified_live": true
+    },
+    "testnet.accounts-wagmi.tempo.xyz": {
+        "added_date": "2026-04-03",
+        "notified_live": true
+    },
+    "w.accounts.tempo.xyz": {
+        "added_date": "2026-04-03",
+        "notified_live": true
+    },
+    "terminal.megaeth.com": {
+        "added_date": "2026-04-03",
+        "notified_live": true
     }
 }
