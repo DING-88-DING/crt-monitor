@@ -98,5 +98,9 @@
     "faucet.testnet.zama.org": {
         "added_date": "2026-03-31",
         "notified_live": true
+    },
+    "staging-terminal.megaeth.com": {
+        "added_date": "2026-04-03",
+        "notified_live": true
     }
 }
