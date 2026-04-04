@@ -1,20 +1,4 @@
 {
-    "cli.tempo.xyz": {
-        "added_date": "2026-03-05",
-        "notified_live": true
-    },
-    "preprod-v2.polymarket.com": {
-        "added_date": "2026-03-05",
-        "notified_live": true
-    },
-    "api.testnet.shelby.xyz": {
-        "added_date": "2026-03-05",
-        "notified_live": true
-    },
-    "api.testnet.staging.shelby.xyz": {
-        "added_date": "2026-03-05",
-        "notified_live": true
-    },
     "rpc-zone-001.tempo.xyz": {
         "added_date": "2026-03-06",
         "notified_live": true
