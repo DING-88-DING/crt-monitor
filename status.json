@@ -94,5 +94,17 @@
     "mnet-ckproxy-pruned.megaeth.com": {
         "added_date": "2026-04-04",
         "notified_live": true
+    },
+    "playground.accounts.tempo.xyz": {
+        "added_date": "2026-04-07",
+        "notified_live": false
+    },
+    "accounts-pg.tempo.xyz": {
+        "added_date": "2026-04-07",
+        "notified_live": true
+    },
+    "accounts-wagmi.tempo.xyz": {
+        "added_date": "2026-04-07",
+        "notified_live": true
     }
 }
