@@ -1,8 +1,4 @@
 {
-    "metrics-internal.tempo.xyz": {
-        "added_date": "2026-03-10",
-        "notified_live": true
-    },
     "internal-logs.tempo.xyz": {
         "added_date": "2026-03-12",
         "notified_live": true
