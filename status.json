@@ -1,12 +1,4 @@
 {
-    "bitcoin.onebalance.io": {
-        "added_date": "2026-03-18",
-        "notified_live": true
-    },
-    "tiles.polymarket.com": {
-        "added_date": "2026-03-18",
-        "notified_live": true
-    },
     "auth.tempo.xyz": {
         "added_date": "2026-03-19",
         "notified_live": true
