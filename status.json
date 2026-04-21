@@ -90,5 +90,13 @@
     "generate.codex.xyz": {
         "added_date": "2026-04-21",
         "notified_live": true
+    },
+    "valscope-testnet.tempo.xyz": {
+        "added_date": "2026-04-21",
+        "notified_live": true
+    },
+    "preprod-public.polymarket.com": {
+        "added_date": "2026-04-21",
+        "notified_live": true
     }
 }
