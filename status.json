@@ -74,5 +74,17 @@
     "grpc.testnet.staging.shelby.xyz": {
         "added_date": "2026-04-16",
         "notified_live": true
+    },
+    "testnet.peers.tempo.xyz": {
+        "added_date": "2026-04-21",
+        "notified_live": false
+    },
+    "rpc-zone-a.testnet.tempo.xyz": {
+        "added_date": "2026-04-21",
+        "notified_live": true
+    },
+    "rpc-zone-b.testnet.tempo.xyz": {
+        "added_date": "2026-04-21",
+        "notified_live": true
     }
 }
