@@ -98,5 +98,9 @@
     "preprod-public.polymarket.com": {
         "added_date": "2026-04-21",
         "notified_live": true
+    },
+    "ci-triage-agent.megaeth.com": {
+        "added_date": "2026-04-22",
+        "notified_live": true
     }
 }
