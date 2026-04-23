@@ -98,5 +98,9 @@
     "ci-triage-agent.megaeth.com": {
         "added_date": "2026-04-22",
         "notified_live": true
+    },
+    "peers.testnet.tempo.xyz": {
+        "added_date": "2026-04-23",
+        "notified_live": true
     }
 }
