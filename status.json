@@ -94,5 +94,9 @@
     "wallet-next.tempo.xyz": {
         "added_date": "2026-04-25",
         "notified_live": true
+    },
+    "docs.perpetuals.polymarket.com": {
+        "added_date": "2026-04-27",
+        "notified_live": true
     }
 }
