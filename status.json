@@ -102,5 +102,13 @@
     "bridge.megaeth.com": {
         "added_date": "2026-04-29",
         "notified_live": true
+    },
+    "metrics.tempo.xyz": {
+        "added_date": "2026-04-29",
+        "notified_live": true
+    },
+    "metrics-mainnet.tempo.xyz": {
+        "added_date": "2026-04-29",
+        "notified_live": false
     }
 }
