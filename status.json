@@ -106,5 +106,13 @@
     "metrics-mainnet.tempo.xyz": {
         "added_date": "2026-04-29",
         "notified_live": false
+    },
+    "shelby.shelbynet.shelby.xyz": {
+        "added_date": "2026-04-30",
+        "notified_live": true
+    },
+    "shelby.shelbynet.staging.shelby.xyz": {
+        "added_date": "2026-04-30",
+        "notified_live": true
     }
 }
