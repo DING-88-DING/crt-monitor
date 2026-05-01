@@ -114,5 +114,9 @@
     "shelby.shelbynet.staging.shelby.xyz": {
         "added_date": "2026-04-30",
         "notified_live": true
+    },
+    "emailtempo.tempo.xyz": {
+        "added_date": "2026-05-01",
+        "notified_live": true
     }
 }
