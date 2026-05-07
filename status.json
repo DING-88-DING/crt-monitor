@@ -1,16 +1,4 @@
 {
-    "playground.accounts.tempo.xyz": {
-        "added_date": "2026-04-07",
-        "notified_live": false
-    },
-    "accounts-pg.tempo.xyz": {
-        "added_date": "2026-04-07",
-        "notified_live": true
-    },
-    "accounts-wagmi.tempo.xyz": {
-        "added_date": "2026-04-07",
-        "notified_live": true
-    },
     "grpc.testnet.staging.shelby.xyz": {
         "added_date": "2026-04-16",
         "notified_live": true
