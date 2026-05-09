@@ -86,5 +86,9 @@
     "flux.megaeth.com": {
         "added_date": "2026-05-04",
         "notified_live": true
+    },
+    "claude-commits.polymarket.com": {
+        "added_date": "2026-05-09",
+        "notified_live": true
     }
 }
