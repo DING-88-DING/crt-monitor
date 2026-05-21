@@ -1,28 +1,4 @@
 {
-    "testnet.peers.tempo.xyz": {
-        "added_date": "2026-04-21",
-        "notified_live": false
-    },
-    "rpc-zone-a.testnet.tempo.xyz": {
-        "added_date": "2026-04-21",
-        "notified_live": true
-    },
-    "rpc-zone-b.testnet.tempo.xyz": {
-        "added_date": "2026-04-21",
-        "notified_live": true
-    },
-    "generate.codex.xyz": {
-        "added_date": "2026-04-21",
-        "notified_live": true
-    },
-    "valscope-testnet.tempo.xyz": {
-        "added_date": "2026-04-21",
-        "notified_live": true
-    },
-    "preprod-public.polymarket.com": {
-        "added_date": "2026-04-21",
-        "notified_live": true
-    },
     "ci-triage-agent.megaeth.com": {
         "added_date": "2026-04-22",
         "notified_live": true
