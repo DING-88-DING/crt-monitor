@@ -1,16 +1,4 @@
 {
-    "peers.testnet.tempo.xyz": {
-        "added_date": "2026-04-23",
-        "notified_live": true
-    },
-    "peers.tempo.xyz": {
-        "added_date": "2026-04-23",
-        "notified_live": true
-    },
-    "testnet-peers.tempo.xyz": {
-        "added_date": "2026-04-23",
-        "notified_live": true
-    },
     "careers.polymarket.com": {
         "added_date": "2026-04-24",
         "notified_live": true
