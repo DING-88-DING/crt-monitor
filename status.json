@@ -46,5 +46,13 @@
     "pages.onebalance.io": {
         "added_date": "2026-05-26",
         "notified_live": true
+    },
+    "lab.primeintellect.ai": {
+        "added_date": "2026-05-26",
+        "notified_live": true
+    },
+    "status.primeintellect.ai": {
+        "added_date": "2026-05-26",
+        "notified_live": true
     }
 }
