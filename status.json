@@ -110,5 +110,9 @@
     "perpetuals-preview.polymarket.com": {
         "added_date": "2026-05-28",
         "notified_live": true
+    },
+    "perf.tempo.xyz": {
+        "added_date": "2026-05-29",
+        "notified_live": true
     }
 }
