@@ -1,8 +1,4 @@
 {
-    "flux.megaeth.com": {
-        "added_date": "2026-05-04",
-        "notified_live": true
-    },
     "claude-commits.polymarket.com": {
         "added_date": "2026-05-09",
         "notified_live": true
@@ -105,6 +101,14 @@
     },
     "mcp.tempo.xyz": {
         "added_date": "2026-06-02",
+        "notified_live": true
+    },
+    "cyclops.tempo.xyz": {
+        "added_date": "2026-06-03",
+        "notified_live": true
+    },
+    "explore.nextfork.devnet.tempo.xyz": {
+        "added_date": "2026-06-03",
         "notified_live": true
     }
 }
