@@ -110,5 +110,9 @@
     "institutional.polymarket.com": {
         "added_date": "2026-06-13",
         "notified_live": true
+    },
+    "rpc.alphanet.thru.org": {
+        "added_date": "2026-06-13",
+        "notified_live": true
     }
 }
