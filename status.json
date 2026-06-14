@@ -114,5 +114,9 @@
     "rpc.alphanet.thru.org": {
         "added_date": "2026-06-13",
         "notified_live": true
+    },
+    "snapshots.megaeth.com": {
+        "added_date": "2026-06-14",
+        "notified_live": true
     }
 }
