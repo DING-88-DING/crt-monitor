@@ -126,5 +126,13 @@
     "cadent.tempo.xyz": {
         "added_date": "2026-06-16",
         "notified_live": true
+    },
+    "shielding-campaign.zama.org": {
+        "added_date": "2026-06-17",
+        "notified_live": true
+    },
+    "app.zama.org": {
+        "added_date": "2026-06-17",
+        "notified_live": true
     }
 }
