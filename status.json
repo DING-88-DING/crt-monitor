@@ -134,5 +134,9 @@
     "app.zama.org": {
         "added_date": "2026-06-17",
         "notified_live": true
+    },
+    "cortex-demo.chaoslabs.xyz": {
+        "added_date": "2026-06-18",
+        "notified_live": true
     }
 }
