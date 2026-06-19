@@ -138,5 +138,21 @@
     "cortex-demo.chaoslabs.xyz": {
         "added_date": "2026-06-18",
         "notified_live": true
+    },
+    "joinmoss.megaeth.com": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "agents.megaeth.com": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "account-sandbox.megaeth.com": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "merch.megaeth.com": {
+        "added_date": "2026-06-19",
+        "notified_live": true
     }
 }
