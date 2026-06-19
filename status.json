@@ -154,5 +154,21 @@
     "merch.megaeth.com": {
         "added_date": "2026-06-19",
         "notified_live": true
+    },
+    "scan.staging.thru.org": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "docs.staging.thru.org": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "wallet.staging.thru.org": {
+        "added_date": "2026-06-19",
+        "notified_live": true
+    },
+    "staging.thru.org": {
+        "added_date": "2026-06-19",
+        "notified_live": true
     }
 }
