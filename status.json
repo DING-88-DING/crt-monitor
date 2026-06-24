@@ -174,5 +174,9 @@
     "preview.wallet.tempo.xyz": {
         "added_date": "2026-06-24",
         "notified_live": true
+    },
+    "s3.shelbynet.shelby.xyz": {
+        "added_date": "2026-06-24",
+        "notified_live": true
     }
 }
