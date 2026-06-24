@@ -186,5 +186,9 @@
     "conviction.megaeth.com": {
         "added_date": "2026-06-24",
         "notified_live": true
+    },
+    "vendor.polymarket.com": {
+        "added_date": "2026-06-24",
+        "notified_live": true
     }
 }
