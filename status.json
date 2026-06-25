@@ -162,5 +162,9 @@
     "rpc-zone-007-private.tempo.xyz": {
         "added_date": "2026-06-25",
         "notified_live": true
+    },
+    "ci-test-agent.megaeth.com": {
+        "added_date": "2026-06-25",
+        "notified_live": true
     }
 }
