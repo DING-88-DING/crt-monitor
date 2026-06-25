@@ -1,40 +1,4 @@
 {
-    "snap-assets.farcaster.xyz": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "pages.onebalance.io": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "lab.primeintellect.ai": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "status.primeintellect.ai": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "lary-test-rpc.megaeth.com": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "relay-signer.megaeth.com": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "tnet-relay-signer.megaeth.com": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "mnet-relay-signer.megaeth.com": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
-    "staging-wallet-relay-testnet-worker.megaeth.com": {
-        "added_date": "2026-05-26",
-        "notified_live": true
-    },
     "indexer.tempo.xyz": {
         "added_date": "2026-05-27",
         "notified_live": true
