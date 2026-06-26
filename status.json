@@ -1,44 +1,4 @@
 {
-    "indexer.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "indexer.testnet.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "indexer-mpp.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": false
-    },
-    "grid.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "accounts.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "feepayer.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "old-testnet-peers.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": false
-    },
-    "snapshots.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "rpc-zone-005-private.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
-    "rpc-zone-006-private.tempo.xyz": {
-        "added_date": "2026-05-27",
-        "notified_live": true
-    },
     "integrity.polymarket.com": {
         "added_date": "2026-05-28",
         "notified_live": true
