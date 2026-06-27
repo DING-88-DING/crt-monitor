@@ -114,5 +114,9 @@
     "ci-test-agent.megaeth.com": {
         "added_date": "2026-06-25",
         "notified_live": true
+    },
+    "status.thru.org": {
+        "added_date": "2026-06-27",
+        "notified_live": true
     }
 }
