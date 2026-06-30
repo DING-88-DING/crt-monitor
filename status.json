@@ -114,5 +114,9 @@
     "status.thru.org": {
         "added_date": "2026-06-27",
         "notified_live": true
+    },
+    "links.zama.org": {
+        "added_date": "2026-06-30",
+        "notified_live": true
     }
 }
