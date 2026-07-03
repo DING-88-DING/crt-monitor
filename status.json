@@ -106,5 +106,9 @@
     "links.zama.org": {
         "added_date": "2026-06-30",
         "notified_live": true
+    },
+    "app-stage.ubyx.xyz": {
+        "added_date": "2026-07-03",
+        "notified_live": true
     }
 }
