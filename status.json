@@ -106,5 +106,13 @@
     "app-stage.ubyx.xyz": {
         "added_date": "2026-07-03",
         "notified_live": true
+    },
+    "rpc-zone-008-private.tempo.xyz": {
+        "added_date": "2026-07-07",
+        "notified_live": true
+    },
+    "rpc-zone-d.testnet.tempo.xyz": {
+        "added_date": "2026-07-07",
+        "notified_live": true
     }
 }
