@@ -118,5 +118,9 @@
     "console.tempo.xyz": {
         "added_date": "2026-07-08",
         "notified_live": true
+    },
+    "otc.polymarket.com": {
+        "added_date": "2026-07-08",
+        "notified_live": true
     }
 }
