@@ -114,5 +114,9 @@
     "rpc-zone-d.testnet.tempo.xyz": {
         "added_date": "2026-07-07",
         "notified_live": true
+    },
+    "console.tempo.xyz": {
+        "added_date": "2026-07-08",
+        "notified_live": true
     }
 }
