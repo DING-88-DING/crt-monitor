@@ -110,5 +110,17 @@
     "verify.codex.xyz": {
         "added_date": "2026-07-08",
         "notified_live": true
+    },
+    "rpc-zone-009-private.tempo.xyz": {
+        "added_date": "2026-07-15",
+        "notified_live": true
+    },
+    "rpc-zone-e.testnet.tempo.xyz": {
+        "added_date": "2026-07-15",
+        "notified_live": true
+    },
+    "rpc-zone-e-public.testnet.tempo.xyz": {
+        "added_date": "2026-07-15",
+        "notified_live": true
     }
 }
