@@ -1,36 +1,4 @@
 {
-    "joinmoss.megaeth.com": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "agents.megaeth.com": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "account-sandbox.megaeth.com": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "merch.megaeth.com": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "scan.staging.thru.org": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "docs.staging.thru.org": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "wallet.staging.thru.org": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
-    "staging.thru.org": {
-        "added_date": "2026-06-19",
-        "notified_live": true
-    },
     "preview.wallet.tempo.xyz": {
         "added_date": "2026-06-24",
         "notified_live": true
