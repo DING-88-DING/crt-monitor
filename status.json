@@ -62,5 +62,9 @@
     "rpc-zone-stable-testnet.tempo.xyz": {
         "added_date": "2026-07-22",
         "notified_live": true
+    },
+    "rpc-zone-stable-testnet-private.tempo.xyz": {
+        "added_date": "2026-07-25",
+        "notified_live": true
     }
 }
