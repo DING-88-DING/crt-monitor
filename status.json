@@ -66,5 +66,9 @@
     "beta.zama.org": {
         "added_date": "2026-07-28",
         "notified_live": true
+    },
+    "testnet.arc.network": {
+        "added_date": "2026-07-28",
+        "notified_live": false
     }
 }
