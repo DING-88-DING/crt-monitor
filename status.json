@@ -70,5 +70,9 @@
     "testnet.arc.network": {
         "added_date": "2026-07-28",
         "notified_live": false
+    },
+    "rpc-orchestra-hyper-tmp.tempo.xyz": {
+        "added_date": "2026-07-29",
+        "notified_live": false
     }
 }
