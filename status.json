@@ -49,7 +49,7 @@
     },
     "centaur.tempo.xyz": {
         "added_date": "2026-07-16",
-        "notified_live": false
+        "notified_live": true
     },
     "moss-sdk.megaeth.com": {
         "added_date": "2026-07-20",
@@ -74,5 +74,9 @@
     "rpc-orchestra-hyper-tmp.tempo.xyz": {
         "added_date": "2026-07-29",
         "notified_live": false
+    },
+    "jump.tempo.xyz": {
+        "added_date": "2026-07-29",
+        "notified_live": true
     }
 }
