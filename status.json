@@ -78,5 +78,9 @@
     "auth.developers.shelby.xyz": {
         "added_date": "2026-07-31",
         "notified_live": true
+    },
+    "events.tempo.xyz": {
+        "added_date": "2026-07-31",
+        "notified_live": true
     }
 }
