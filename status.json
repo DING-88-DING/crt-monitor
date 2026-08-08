@@ -78,5 +78,9 @@
     "wallet-admin.thru.org": {
         "added_date": "2026-08-08",
         "notified_live": true
+    },
+    "faucet.thru.org": {
+        "added_date": "2026-08-08",
+        "notified_live": true
     }
 }
