@@ -1,16 +1,4 @@
 {
-    "rpc-zone-009-private.tempo.xyz": {
-        "added_date": "2026-07-15",
-        "notified_live": true
-    },
-    "rpc-zone-e.testnet.tempo.xyz": {
-        "added_date": "2026-07-15",
-        "notified_live": true
-    },
-    "rpc-zone-e-public.testnet.tempo.xyz": {
-        "added_date": "2026-07-15",
-        "notified_live": true
-    },
     "indexer-zone-e-public.testnet.tempo.xyz": {
         "added_date": "2026-07-16",
         "notified_live": true
