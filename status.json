@@ -1,16 +1,4 @@
 {
-    "indexer-zone-e-public.testnet.tempo.xyz": {
-        "added_date": "2026-07-16",
-        "notified_live": true
-    },
-    "api.beta.shelby.xyz": {
-        "added_date": "2026-07-16",
-        "notified_live": true
-    },
-    "centaur.tempo.xyz": {
-        "added_date": "2026-07-16",
-        "notified_live": true
-    },
     "moss-sdk.megaeth.com": {
         "added_date": "2026-07-20",
         "notified_live": true
