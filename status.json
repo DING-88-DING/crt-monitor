@@ -58,5 +58,9 @@
     "faucet.thru.org": {
         "added_date": "2026-08-08",
         "notified_live": true
+    },
+    "mm.clob.polymarket.com": {
+        "added_date": "2026-08-17",
+        "notified_live": false
     }
 }
