@@ -62,5 +62,9 @@
     "mm.clob.polymarket.com": {
         "added_date": "2026-08-17",
         "notified_live": false
+    },
+    "gamma-api.polymarket.com": {
+        "added_date": "2026-08-18",
+        "notified_live": true
     }
 }
