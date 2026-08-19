@@ -62,5 +62,9 @@
     "gamma-api.polymarket.com": {
         "added_date": "2026-08-18",
         "notified_live": true
+    },
+    "api.defi.polymarket.com": {
+        "added_date": "2026-08-19",
+        "notified_live": false
     }
 }
