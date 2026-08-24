@@ -62,5 +62,13 @@
     "ufc330.polymarket.com": {
         "added_date": "2026-08-20",
         "notified_live": true
+    },
+    "token-api.zama.org": {
+        "added_date": "2026-08-24",
+        "notified_live": true
+    },
+    "testnet.app.zama.org": {
+        "added_date": "2026-08-24",
+        "notified_live": true
     }
 }
