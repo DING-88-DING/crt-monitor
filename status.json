@@ -1,12 +1,4 @@
 {
-    "beta.zama.org": {
-        "added_date": "2026-07-28",
-        "notified_live": true
-    },
-    "testnet.arc.network": {
-        "added_date": "2026-07-28",
-        "notified_live": false
-    },
     "rpc-orchestra-hyper-tmp.tempo.xyz": {
         "added_date": "2026-07-29",
         "notified_live": false
@@ -93,6 +85,10 @@
     },
     "ws.perpetuals.polymarket.com": {
         "added_date": "2026-08-25",
+        "notified_live": true
+    },
+    "institute.polymarket.com": {
+        "added_date": "2026-08-27",
         "notified_live": true
     }
 }
