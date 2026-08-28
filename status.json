@@ -1,12 +1,4 @@
 {
-    "rpc-orchestra-hyper-tmp.tempo.xyz": {
-        "added_date": "2026-07-29",
-        "notified_live": false
-    },
-    "jump.tempo.xyz": {
-        "added_date": "2026-07-29",
-        "notified_live": true
-    },
     "auth.developers.shelby.xyz": {
         "added_date": "2026-07-31",
         "notified_live": true
