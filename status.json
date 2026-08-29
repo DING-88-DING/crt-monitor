@@ -82,5 +82,21 @@
     "institute.polymarket.com": {
         "added_date": "2026-08-27",
         "notified_live": true
+    },
+    "faucet.beta.shelby.xyz": {
+        "added_date": "2026-08-29",
+        "notified_live": true
+    },
+    "s3.beta.shelby.xyz": {
+        "added_date": "2026-08-29",
+        "notified_live": true
+    },
+    "admin.api.beta.shelby.xyz": {
+        "added_date": "2026-08-29",
+        "notified_live": true
+    },
+    "grpc.beta.shelby.xyz": {
+        "added_date": "2026-08-29",
+        "notified_live": true
     }
 }
