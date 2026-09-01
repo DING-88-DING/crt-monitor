@@ -90,5 +90,9 @@
     "grpc.beta.shelby.xyz": {
         "added_date": "2026-08-29",
         "notified_live": true
+    },
+    "partners.megaeth.com": {
+        "added_date": "2026-09-01",
+        "notified_live": true
     }
 }
