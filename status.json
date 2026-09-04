@@ -29,7 +29,7 @@
     },
     "api.defi.polymarket.com": {
         "added_date": "2026-08-19",
-        "notified_live": false
+        "notified_live": true
     },
     "ufc330.polymarket.com": {
         "added_date": "2026-08-20",
