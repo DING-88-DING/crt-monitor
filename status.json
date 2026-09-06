@@ -1,16 +1,4 @@
 {
-    "admin.staging.wallet.thru.org": {
-        "added_date": "2026-08-07",
-        "notified_live": true
-    },
-    "clob.thru.org": {
-        "added_date": "2026-08-07",
-        "notified_live": true
-    },
-    "data-api.polymarket.com": {
-        "added_date": "2026-08-07",
-        "notified_live": true
-    },
     "wallet-admin.thru.org": {
         "added_date": "2026-08-08",
         "notified_live": true
