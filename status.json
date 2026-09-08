@@ -74,5 +74,13 @@
     "rpc.betanet.thru.org": {
         "added_date": "2026-09-08",
         "notified_live": true
+    },
+    "assets.perpetuals.polymarket.com": {
+        "added_date": "2026-09-08",
+        "notified_live": true
+    },
+    "ws-live-v2.polymarket.com": {
+        "added_date": "2026-09-08",
+        "notified_live": true
     }
 }
