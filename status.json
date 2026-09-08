@@ -70,5 +70,9 @@
     "partners.megaeth.com": {
         "added_date": "2026-09-01",
         "notified_live": true
+    },
+    "rpc.betanet.thru.org": {
+        "added_date": "2026-09-08",
+        "notified_live": true
     }
 }
