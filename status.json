@@ -82,5 +82,9 @@
     "ws-live-v2.polymarket.com": {
         "added_date": "2026-09-08",
         "notified_live": true
+    },
+    "base-sepolia-relay-signer.megaeth.com": {
+        "added_date": "2026-09-09",
+        "notified_live": true
     }
 }
