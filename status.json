@@ -86,5 +86,9 @@
     "base-sepolia-relay-signer.megaeth.com": {
         "added_date": "2026-09-09",
         "notified_live": true
+    },
+    "design.thru.org": {
+        "added_date": "2026-09-10",
+        "notified_live": true
     }
 }
