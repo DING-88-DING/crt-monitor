@@ -94,5 +94,9 @@
     "sandbox.agora.finance": {
         "added_date": "2026-09-11",
         "notified_live": false
+    },
+    "app.ubyx.xyz": {
+        "added_date": "2026-09-11",
+        "notified_live": true
     }
 }
