@@ -90,5 +90,9 @@
     "design.thru.org": {
         "added_date": "2026-09-10",
         "notified_live": true
+    },
+    "sandbox.agora.finance": {
+        "added_date": "2026-09-11",
+        "notified_live": false
     }
 }
