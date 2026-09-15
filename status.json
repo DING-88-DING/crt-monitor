@@ -102,5 +102,9 @@
     "private-beta.shelby.xyz": {
         "added_date": "2026-09-11",
         "notified_live": true
+    },
+    "trust.primeintellect.ai": {
+        "added_date": "2026-09-15",
+        "notified_live": true
     }
 }
