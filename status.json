@@ -94,5 +94,9 @@
     "mica.zama.org": {
         "added_date": "2026-09-21",
         "notified_live": true
+    },
+    "perps-assets.polymarket.com": {
+        "added_date": "2026-09-22",
+        "notified_live": false
     }
 }
