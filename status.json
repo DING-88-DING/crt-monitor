@@ -42,5 +42,9 @@
     "perps-assets.polymarket.com": {
         "added_date": "2026-09-22",
         "notified_live": false
+    },
+    "climate.polymarket.com": {
+        "added_date": "2026-10-01",
+        "notified_live": true
     }
 }
