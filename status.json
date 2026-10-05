@@ -50,5 +50,9 @@
     "admin.api.staging.beta.shelby.xyz": {
         "added_date": "2026-10-04",
         "notified_live": true
+    },
+    "gamma-cache.polymarket.com": {
+        "added_date": "2026-10-05",
+        "notified_live": true
     }
 }
