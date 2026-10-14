@@ -22,5 +22,9 @@
     "gamma-cache.polymarket.com": {
         "added_date": "2026-10-05",
         "notified_live": true
+    },
+    "auth.staging.developers.shelby.xyz": {
+        "added_date": "2026-10-14",
+        "notified_live": true
     }
 }
